@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mission11_Katzenbach")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+21a3dcbdbd5b45921e36136382e020b6e6c111a2")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mission11_Katzenbach")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mission11_Katzenbach")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
