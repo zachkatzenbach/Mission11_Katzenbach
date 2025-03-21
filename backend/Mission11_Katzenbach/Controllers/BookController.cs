@@ -17,11 +17,32 @@ namespace Mission11_Katzenbach.Controllers
             _bookContext = temp;
         }
 
-        public IEnumerable<Book> GetBooks()
+        [HttpGet]
+        public IActionResult GetBooks(int pageSize = 5, int pageNum = 1, int isSorted = 0)
         {
-            var books = _bookContext.Books.ToList();
+            IQueryable<Book> booksQuery = _bookContext.Books;
 
-            return books;
+            //Sort all books before sending to frontend
+            if (isSorted == 1)
+            {
+                booksQuery = booksQuery.OrderBy(b => b.Title); // Change to appropriate sorting field
+            }
+
+            // Apply pagination (after sorting)
+            var books = booksQuery
+                .Skip((pageNum - 1) * pageSize)
+                .Take(pageSize)
+                .ToList();
+
+            var totalBooks = _bookContext.Books.Count();
+
+            var bookObject = new
+            {
+                Books = books,
+                TotalBooks = totalBooks
+            };
+
+            return Ok(bookObject);
         }
     }
 }
