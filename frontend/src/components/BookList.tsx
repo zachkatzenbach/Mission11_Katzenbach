@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'react';
-import { Book } from './types/Book';
+import { Book } from '../types/Book';
+import { useNavigate } from 'react-router-dom';
 
-function BookList() {
+function BookList({ selectedCategories }: { selectedCategories: string[] }) {
   const [books, setBooks] = useState<Book[]>([]);
   const [pageSize, setPageSize] = useState<number>(5);
   const [pageNum, setPageNum] = useState<number>(1);
@@ -9,11 +10,19 @@ function BookList() {
   const [totalPages, setTotalPages] = useState<number>(0);
   const [isSorted, setIsSorted] = useState<number>(0);
   var sortedBooks;
+  const navigate = useNavigate();
 
   useEffect(() => {
     const fetchBooks = async () => {
+      const categoryParams = selectedCategories
+        .map((cat) => `bookCategories=${encodeURIComponent(cat)}`)
+        .join('&');
+
       const response = await fetch(
-        `https://localhost:5000/api/Book?pageSize=${pageSize}&pageNum=${pageNum}&isSorted=${isSorted}`
+        `https://localhost:5000/api/Book/AllBooks/?pageSize=${pageSize}&pageNum=${pageNum}&isSorted=${isSorted}${selectedCategories.length ? `&${categoryParams}` : ''}`,
+        {
+          credentials: 'include',
+        }
       );
       const data = await response.json();
 
@@ -32,11 +41,10 @@ function BookList() {
     };
 
     fetchBooks();
-  }, [pageSize, pageNum, totalBooks, isSorted]);
+  }, [pageSize, pageNum, totalBooks, isSorted, selectedCategories]);
 
   return (
     <>
-      <h1>Books</h1>
       <label htmlFor="isSorted">Sort by title?</label>
       <select
         id="isSorted"
@@ -80,6 +88,13 @@ function BookList() {
                 {b.price}
               </li>
             </ul>
+
+            <button
+              className="btn btn-success"
+              onClick={() => navigate(`/buy/${b.bookID}/${b.title}/${b.price}`)}
+            >
+              Buy
+            </button>
           </div>
         </div>
       ))}
@@ -106,18 +121,21 @@ function BookList() {
       </button>
 
       <br />
-      <label>Results per page:</label>
-      <select
-        value={pageSize}
-        onChange={(p) => {
-          setPageSize(Number(p.target.value));
-          setPageNum(1);
-        }}
-      >
-        <option value="5">5</option>
-        <option value="10">10</option>
-        <option value="20">20</option>
-      </select>
+      <div>
+        <label>Results per page:</label>
+        <select
+          className="form-select form-select-md mb-3"
+          value={pageSize}
+          onChange={(p) => {
+            setPageSize(Number(p.target.value));
+            setPageNum(1);
+          }}
+        >
+          <option value="5">5</option>
+          <option value="10">10</option>
+          <option value="20">20</option>
+        </select>
+      </div>
     </>
   );
 }

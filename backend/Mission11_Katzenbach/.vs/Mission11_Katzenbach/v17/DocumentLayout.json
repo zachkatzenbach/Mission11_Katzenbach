@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{F71965FE-158D-4A8C-9F07-12169E0A39BA}|Mission11_Katzenbach.csproj|solutionrelative:controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F71965FE-158D-4A8C-9F07-12169E0A39BA}|Mission11_Katzenbach.csproj|c:\\users\\zachk\\onedrive\\desktop\\mission11_katzenbach\\backend\\mission11_katzenbach\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F71965FE-158D-4A8C-9F07-12169E0A39BA}|Mission11_Katzenbach.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F71965FE-158D-4A8C-9F07-12169E0A39BA}|Mission11_Katzenbach.csproj|c:\\users\\zachk\\onedrive\\desktop\\mission11_katzenbach\\backend\\mission11_katzenbach\\data\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F71965FE-158D-4A8C-9F07-12169E0A39BA}|Mission11_Katzenbach.csproj|solutionrelative:data\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F71965FE-158D-4A8C-9F07-12169E0A39BA}|Mission11_Katzenbach.csproj|c:\\users\\zachk\\onedrive\\desktop\\mission11_katzenbach\\backend\\mission11_katzenbach\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{F71965FE-158D-4A8C-9F07-12169E0A39BA}|Mission11_Katzenbach.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F71965FE-158D-4A8C-9F07-12169E0A39BA}|Mission11_Katzenbach.csproj|c:\\users\\zachk\\onedrive\\desktop\\mission11_katzenbach\\backend\\mission11_katzenbach\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F71965FE-158D-4A8C-9F07-12169E0A39BA}|Mission11_Katzenbach.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F71965FE-158D-4A8C-9F07-12169E0A39BA}|Mission11_Katzenbach.csproj|c:\\users\\zachk\\onedrive\\desktop\\mission11_katzenbach\\backend\\mission11_katzenbach\\data\\bookdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,20 +46,33 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\zachk\\OneDrive\\Desktop\\Mission11_Katzenbach\\backend\\Mission11_Katzenbach\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\zachk\\OneDrive\\Desktop\\Mission11_Katzenbach\\backend\\Mission11_Katzenbach\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAgwCEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T20:04:32.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "BookController.cs",
               "DocumentMoniker": "C:\\Users\\zachk\\OneDrive\\Desktop\\Mission11_Katzenbach\\backend\\Mission11_Katzenbach\\Controllers\\BookController.cs",
               "RelativeDocumentMoniker": "Controllers\\BookController.cs",
               "ToolTip": "C:\\Users\\zachk\\OneDrive\\Desktop\\Mission11_Katzenbach\\backend\\Mission11_Katzenbach\\Controllers\\BookController.cs",
               "RelativeToolTip": "Controllers\\BookController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAxwCYAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAgwCoAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-17T20:17:03.868Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\zachk\\OneDrive\\Desktop\\Mission11_Katzenbach\\backend\\Mission11_Katzenbach\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -71,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Book.cs",
               "DocumentMoniker": "C:\\Users\\zachk\\OneDrive\\Desktop\\Mission11_Katzenbach\\backend\\Mission11_Katzenbach\\Data\\Book.cs",
               "RelativeDocumentMoniker": "Data\\Book.cs",
@@ -80,18 +93,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-17T19:47:49.097Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\zachk\\OneDrive\\Desktop\\Mission11_Katzenbach\\backend\\Mission11_Katzenbach\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\zachk\\OneDrive\\Desktop\\Mission11_Katzenbach\\backend\\Mission11_Katzenbach\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T20:04:32.659Z"
             },
             {
               "$type": "Document",
@@ -107,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\zachk\\OneDrive\\Desktop\\Mission11_Katzenbach\\backend\\Mission11_Katzenbach\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",

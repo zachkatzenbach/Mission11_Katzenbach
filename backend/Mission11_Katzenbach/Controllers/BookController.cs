@@ -3,6 +3,7 @@ using System.Security.AccessControl;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Mission11_Katzenbach.Data;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace Mission11_Katzenbach.Controllers
 {
@@ -17,10 +18,15 @@ namespace Mission11_Katzenbach.Controllers
             _bookContext = temp;
         }
 
-        [HttpGet]
-        public IActionResult GetBooks(int pageSize = 5, int pageNum = 1, int isSorted = 0)
+        [HttpGet("AllBooks")]
+        public IActionResult GetBooks(int pageSize = 5, int pageNum = 1, int isSorted = 0, [FromQuery] List<string>? bookCategories = null)
         {
-            IQueryable<Book> booksQuery = _bookContext.Books;
+            var booksQuery = _bookContext.Books.AsQueryable();
+
+            if (bookCategories != null && bookCategories.Any())
+            {
+                booksQuery = booksQuery.Where(b => bookCategories.Contains(b.Category));
+            }
 
             //Sort all books before sending to frontend
             if (isSorted == 1)
@@ -34,7 +40,7 @@ namespace Mission11_Katzenbach.Controllers
                 .Take(pageSize)
                 .ToList();
 
-            var totalBooks = _bookContext.Books.Count();
+            var totalBooks = booksQuery.Count();
 
             var bookObject = new
             {
@@ -43,6 +49,17 @@ namespace Mission11_Katzenbach.Controllers
             };
 
             return Ok(bookObject);
+        }
+
+        [HttpGet("GetBookCategories")]
+        public IActionResult GetProjectTypes()
+        {
+            var projectTypes = _bookContext.Books
+                .Select(p => p.Category)
+                .Distinct()
+                .ToList();
+
+            return Ok(projectTypes);
         }
     }
 }
