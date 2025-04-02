@@ -82,3 +82,9 @@ C:\Users\zachk\OneDrive\Desktop\Mission11_Katzenbach\backend\Mission11_Katzenbac
 C:\Users\zachk\OneDrive\Desktop\Mission11_Katzenbach\backend\Mission11_Katzenbach\bin\Debug\net8.0\publish\publish\Mission11_Katzenbach.deps.json
 C:\Users\zachk\OneDrive\Desktop\Mission11_Katzenbach\backend\Mission11_Katzenbach\bin\Debug\net8.0\publish\publish\Mission11_Katzenbach.runtimeconfig.json
 C:\Users\zachk\OneDrive\Desktop\Mission11_Katzenbach\backend\Mission11_Katzenbach\bin\Debug\net8.0\publish\publish\Mission11_Katzenbach.staticwebassets.endpoints.json
+C:\Users\zachk\OneDrive\Desktop\Mission11_Katzenbach\backend\Mission11_Katzenbach\bin\Debug\net8.0\publish\publish\publish\web.config
+C:\Users\zachk\OneDrive\Desktop\Mission11_Katzenbach\backend\Mission11_Katzenbach\bin\Debug\net8.0\publish\publish\publish\appsettings.Development.json
+C:\Users\zachk\OneDrive\Desktop\Mission11_Katzenbach\backend\Mission11_Katzenbach\bin\Debug\net8.0\publish\publish\publish\appsettings.json
+C:\Users\zachk\OneDrive\Desktop\Mission11_Katzenbach\backend\Mission11_Katzenbach\bin\Debug\net8.0\publish\publish\publish\Mission11_Katzenbach.deps.json
+C:\Users\zachk\OneDrive\Desktop\Mission11_Katzenbach\backend\Mission11_Katzenbach\bin\Debug\net8.0\publish\publish\publish\Mission11_Katzenbach.runtimeconfig.json
+C:\Users\zachk\OneDrive\Desktop\Mission11_Katzenbach\backend\Mission11_Katzenbach\bin\Debug\net8.0\publish\publish\publish\Mission11_Katzenbach.staticwebassets.endpoints.json

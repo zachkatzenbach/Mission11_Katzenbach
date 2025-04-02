@@ -16,7 +16,7 @@ builder.Services.AddDbContext<BookDbContext>(options =>
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowFrontend",
-        policy => policy.WithOrigins("http://localhost:3000") // Your frontend URL
+        policy => policy.WithOrigins("https://gentle-pebble-0a6efe51e.6.azurestaticapps.net") // Your frontend URL
                         .AllowAnyMethod()
                         .AllowAnyHeader()
                         .AllowCredentials()); // Required for cookies/authentication

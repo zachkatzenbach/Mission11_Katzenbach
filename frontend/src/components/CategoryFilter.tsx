@@ -12,7 +12,9 @@ function CategoryFilter({
   useEffect(() => {
     const fetchCategories = async () => {
       try {
-        const response = await fetch('https://localhost:5000/api/Book/GetBookCategories');
+        const response = await fetch(
+          'https://mission-13-katzenbach.azurewebsites.net/api/Book/GetBookCategories'
+        );
         const data = await response.json();
 
         setCategories(data);

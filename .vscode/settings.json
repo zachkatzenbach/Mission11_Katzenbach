@@ -1,4 +1,4 @@
 {
   "appService.defaultWebAppToDeploy": "undefined/subscriptions/d9aa2909-302e-4f47-b065-bc4dcb7542c1/resourceGroups/appsvc_windows_centralus/providers/Microsoft.Web/sites/Mission13-Katzenbach",
-  "appService.deploySubpath": "."
+  "appService.deploySubpath": "backend/Mission11_Katzenbach/publish"
 }
