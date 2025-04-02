@@ -21,6 +21,7 @@ const AdminBooksPage = () => {
   useEffect(() => {
     const loadBooks = async () => {
       try {
+        setIsSorted(0);
         const data = await fetchBooks(pageSize, pageNum, isSorted, []);
         setBooks(data.books);
         setTotalPages(Math.ceil(data.totalBooks / pageSize));
