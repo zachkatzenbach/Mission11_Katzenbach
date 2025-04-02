@@ -16,6 +16,8 @@ namespace Mission11_Katzenbach.Data
         [Required]
         public string ISBN { get; set; }
         [Required]
+        public string Classification {  get; set; }
+        [Required]
         public string Category { get; set; }
         [Required]
         public string PageCount { get; set; }
