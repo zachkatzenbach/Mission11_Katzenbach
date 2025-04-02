@@ -3,7 +3,7 @@ using System.Security.AccessControl;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Mission11_Katzenbach.Data;
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory
 
 namespace Mission11_Katzenbach.Controllers
 {

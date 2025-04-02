@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mission11_Katzenbach")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+361b46ebca902ad336ea5a427c6ea08b7e8d047f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7b6876b4367141a14b66c62f168d3ed7df5f4164")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mission11_Katzenbach")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mission11_Katzenbach")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

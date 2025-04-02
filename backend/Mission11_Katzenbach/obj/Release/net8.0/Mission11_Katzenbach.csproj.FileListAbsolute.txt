@@ -69,3 +69,16 @@ C:\Users\zachk\OneDrive\Desktop\Mission11_Katzenbach\backend\Mission11_Katzenbac
 C:\Users\zachk\OneDrive\Desktop\Mission11_Katzenbach\backend\Mission11_Katzenbach\obj\Release\net8.0\Mission11_Katzenbach.pdb
 C:\Users\zachk\OneDrive\Desktop\Mission11_Katzenbach\backend\Mission11_Katzenbach\obj\Release\net8.0\Mission11_Katzenbach.genruntimeconfig.cache
 C:\Users\zachk\OneDrive\Desktop\Mission11_Katzenbach\backend\Mission11_Katzenbach\obj\Release\net8.0\ref\Mission11_Katzenbach.dll
+C:\Users\zachk\OneDrive\Desktop\Mission11_Katzenbach\backend\Mission11_Katzenbach\bin\Release\net8.0\publish\web.config
+C:\Users\zachk\OneDrive\Desktop\Mission11_Katzenbach\backend\Mission11_Katzenbach\bin\Release\net8.0\publish\appsettings.Development.json
+C:\Users\zachk\OneDrive\Desktop\Mission11_Katzenbach\backend\Mission11_Katzenbach\bin\Release\net8.0\publish\appsettings.json
+C:\Users\zachk\OneDrive\Desktop\Mission11_Katzenbach\backend\Mission11_Katzenbach\bin\Release\net8.0\publish\Mission11_Katzenbach.deps.json
+C:\Users\zachk\OneDrive\Desktop\Mission11_Katzenbach\backend\Mission11_Katzenbach\bin\Release\net8.0\publish\Mission11_Katzenbach.runtimeconfig.json
+C:\Users\zachk\OneDrive\Desktop\Mission11_Katzenbach\backend\Mission11_Katzenbach\bin\Release\net8.0\publish\Mission11_Katzenbach.staticwebassets.endpoints.json
+C:\Users\zachk\OneDrive\Desktop\Mission11_Katzenbach\backend\Mission11_Katzenbach\bin\Release\net8.0\Bookstore.sqlite
+C:\Users\zachk\OneDrive\Desktop\Mission11_Katzenbach\backend\Mission11_Katzenbach\bin\Release\net8.0\publish\publish\web.config
+C:\Users\zachk\OneDrive\Desktop\Mission11_Katzenbach\backend\Mission11_Katzenbach\bin\Release\net8.0\publish\publish\appsettings.Development.json
+C:\Users\zachk\OneDrive\Desktop\Mission11_Katzenbach\backend\Mission11_Katzenbach\bin\Release\net8.0\publish\publish\appsettings.json
+C:\Users\zachk\OneDrive\Desktop\Mission11_Katzenbach\backend\Mission11_Katzenbach\bin\Release\net8.0\publish\publish\Mission11_Katzenbach.deps.json
+C:\Users\zachk\OneDrive\Desktop\Mission11_Katzenbach\backend\Mission11_Katzenbach\bin\Release\net8.0\publish\publish\Mission11_Katzenbach.runtimeconfig.json
+C:\Users\zachk\OneDrive\Desktop\Mission11_Katzenbach\backend\Mission11_Katzenbach\bin\Release\net8.0\publish\publish\Mission11_Katzenbach.staticwebassets.endpoints.json
